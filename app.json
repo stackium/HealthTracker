@@ -15,7 +15,7 @@
     },
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "app.rork.healthtracker-mobile-demo",
+      "bundleIdentifier": "com.healthtracker.demo",
       "infoPlist": {
         "ITSAppUsesNonExemptEncryption": false
       }
@@ -25,7 +25,7 @@
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "package": "app.rork.healthtracker-mobile-demo"
+      "package": "com.healthtracker.demo"
     },
     "web": {
       "favicon": "./assets/images/favicon.png"
@@ -48,6 +48,12 @@
       "eas": {
         "projectId": "d4d6cd8c-5862-4626-b251-7195808f4d86"
       }
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/d4d6cd8c-5862-4626-b251-7195808f4d86"
     }
   }
 }

@@ -1,5 +1,4 @@
-import { BundleInspector } from '../.rorkai/inspector';
-import { RorkErrorBoundary } from '../.rorkai/rork-error-boundary';
+// Removed Rork-specific imports that don't exist
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { Stack } from "expo-router";
 import * as SplashScreen from "expo-splash-screen";
@@ -50,7 +49,7 @@ export default function RootLayout() {
     <QueryClientProvider client={queryClient}>
       <HealthProvider>
         <GestureHandlerRootView style={{ flex: 1 }}>
-          <BundleInspector><RorkErrorBoundary><RootLayoutNav /></RorkErrorBoundary></BundleInspector>
+          <RootLayoutNav />
         </GestureHandlerRootView>
       </HealthProvider>
     </QueryClientProvider>
